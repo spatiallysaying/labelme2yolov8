@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Dhulipudi"
+  given-names: "Durga Prasad"
+  orcid: "https://orcid.org/0000-0003-0855-5230"
+title: "Labelme2YOLOv8:  Powerful tool for converting LabelMe's JSON dataset to YOLOv8  format.
+"
+url: "https://pypi.org/project/Labelme2YOLOv8/"
+license: GPL-3
