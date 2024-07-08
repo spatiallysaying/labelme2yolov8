@@ -91,7 +91,7 @@ If you have split the LabelMe training dataset and validation dataset on your ow
 This tool will read the training and validation datasets by folder. You may run the following command to do this:
 
 ```shell
-labelme2yolov8 --json_dir /path/to/labelme_json_dir/
+python -m labelme2yolov8 --json_dir /path/to/labelme_json_dir/
 ```
 
 This tool will generate dataset labels and images with YOLO format in different folders, such as
