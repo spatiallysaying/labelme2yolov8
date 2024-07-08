@@ -63,7 +63,7 @@ pip install labelme2yolov8
 You may need to place all LabelMe JSON files under **labelme\_json\_dir** and then run the following command:
 
 ```shell
-labelme2yolov8 --json_dir /path/to/labelme_json_dir/ --val_size 0.15 --test_size 0.15
+python -m labelme2yolov8 --json_dir /path/to/labelme_json_dir/ --val_size 0.15 --test_size 0.15
 ```
 
 This tool will generate dataset labels and images with YOLO format in different folders, such as
